@@ -73,6 +73,8 @@ El proyecto sigue la estructura recomendada por Next.js 14, utilizando la carpet
  ┃ ┃ ┗ 📜 page.tsx  # Lista de publicaciones
  ┃ ┗ 📜 layout.tsx  # Layout general con Navbar
  ┣ 📂 components
+   ┣ 📂ui
+   ┃ ┗ progress # usando shadCN(barra de progreso)
  ┃ ┣ 📜 Navbar.tsx  # Barra de navegación
  ┃ ┣ 📜 ErrorMessage.tsx  # Mensajes de error reutilizables
  ┃ ┣ 📜 Skeleton.tsx  # Placeholder para carga
