@@ -9,9 +9,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
   return (
     <html lang="es">
-      <body className="bg-gray-100">
-        <Navbar />
+      <body className="bg-gray-100 ">
         <QueryClientProvider client={queryClient}>
+          <Navbar />
           {children}
         </QueryClientProvider>
       </body>
