@@ -137,6 +137,34 @@ const handleAddComment = () => {
   setNewComments([...newComments, { id: Date.now(), name, body: comment }]);
 };
 ```
+---
+📌 Respuestas al Cuestionario Teórico
+
+A) Verdadero / Falso
+
+(Verdadero) ✅ Next.js 14 introduce Server Actions que permiten ejecutar lógica en el servidor sin necesidad de un API endpoint adicional.
+
+(Falso) ❌ useEffect en React 18 se ejecuta después de que el componente se renderiza, no antes.
+
+(Falso) ❌ TypeScript ayuda a prevenir errores en tiempo de compilación, pero no elimina todos los errores en tiempo de ejecución.
+
+(Verdadero) ✅ TanStack Query maneja caché y revalidación de datos de forma automática, optimizando las solicitudes HTTP.
+
+(Falso) ❌ ShadCN es una librería de componentes accesibles para React, y no está limitada a dashboards empresariales.
+
+B) Opción Múltiple
+
+(B) ✅ Server Components renderizan en el servidor, reduciendo el JavaScript enviado al cliente.
+
+(B) ✅ Para implementar ISR en Next.js, se usa getStaticProps() con la opción revalidate.
+
+(B) ✅ TypeScript permite crear interfaces y tipos, ayudando a detectar errores de forma anticipada.
+
+(B) ✅ TanStack Query optimiza las llamadas a la API con cacheo y revalidación automática.
+
+(A) ✅ ShadCN es una colección de componentes UI accesibles y personalizables para React.
+
+✅ Este documento contiene las respuestas justificadas del cuestionario teórico. 🚀
 
 ---
 
