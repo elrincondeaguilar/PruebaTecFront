@@ -1,3 +1,4 @@
+https://github.com/user-attachments/assets/6e5f54fd-e798-4d96-845e-de8f93954879
 # 📌 Prueba Técnica - Frontend con Next.js
 
 Este proyecto es una aplicación frontend desarrollada con **Next.js 14**, **React Query**, **Tailwind CSS** y **Framer Motion**. La aplicación permite visualizar y gestionar usuarios y publicaciones, utilizando Server Components y Client Components según la necesidad.
